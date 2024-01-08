@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+}
+.chart {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  align-items: center;
+  background: #fff;
+  border-radius: 15px;
+}

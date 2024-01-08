@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+}
+.chart {
+  flex: 1;
+  width: 330px;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  > div {
+    margin: -20px;
+  }
+}
