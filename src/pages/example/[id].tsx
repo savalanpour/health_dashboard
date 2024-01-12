@@ -75,11 +75,11 @@ export default function Home() {
         </div>
         <div className={s.feedbackBox}>
           <div className={s.inputTitle}>Feedback</div>
-          <TextArea rows={4} placeholder="maxLength is 6" maxLength={400} className={s.input}/>
+          <div className={s.feedback}>Your stress level is commendably low at <b>{userData.averageStressLevel}</b> out of 100, which is likely aided by your active lifestyle, as indicated by your step count and distance covered. Your average heart rate is healthy, but your sleep pattern suggests some disturbances, particularly with the proportion of light sleep and time spent awake at night.</div>
         </div>
         <div className={s.feedbackBox}>
           <div className={s.inputTitle}>Suggestion</div>
-          <TextArea rows={4} placeholder="maxLength is 6" maxLength={400} className={s.input}/>
+          <div className={s.feedback}>To enhance your overall well-being, focus on improving sleep quality. Consider a consistent sleep schedule and a calming bedtime routine. Maintaining your physical activity and a balanced diet will further support your stress management and general health.</div>
         </div>
       </main>
     </>
